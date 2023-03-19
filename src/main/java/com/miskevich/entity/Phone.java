@@ -29,7 +29,7 @@ public class Phone {
     private Long id;
 
     @OneToOne
-    @JoinColumn(name = "car_case_model_id")
+    @JoinColumn(name = "phone_case_model_id")
     @JsonManagedReference
     private PhoneCaseModel phoneCaseModels;
 
